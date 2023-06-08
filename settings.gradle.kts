@@ -19,4 +19,4 @@ plugins {
 }
 
 rootProject.name = "cucumber-multi"
-include("app", "list", "utilities")
+include("app-hello", "list", "utilities")
