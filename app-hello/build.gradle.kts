@@ -6,6 +6,7 @@
 
 plugins {
     id("com.nelkinda.training.hello.kotlin-application-conventions")
+    id("org.springframework.boot") version "3.1.0"
 }
 
 dependencies {
