@@ -11,6 +11,7 @@ class HelloApplication
 internal lateinit var appContext: ApplicationContext
     private set
 
+@Generated // We don't need mutation on main()
 fun main(vararg args: String) {
     appContext = runApplication<HelloApplication>(*args)
 }
